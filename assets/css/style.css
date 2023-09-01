@@ -1818,8 +1818,8 @@ a:focus {
 }
 
 .site-footer__main {
-	padding-bottom: 90px;
-	padding-top: 133px;
+	padding-bottom: 10px;
+	padding-top: 73px;
 }
 
 @media(min-width: 1200px) {
@@ -1866,7 +1866,7 @@ a:focus {
 }
 
 .footer-widget__contact p {
-	line-height: 26px;
+	line-height: 16px;
 }
 
 .footer-widget__post-single {
