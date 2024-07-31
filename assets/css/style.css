@@ -601,8 +601,8 @@ a:focus {
 }
 
 .lds-ripple div:nth-child(2) {
-	-webkit-animation-delay: -0.5s;
-	animation-delay: -0.5s;
+	-webkit-animation-delay: -0.3s;
+	animation-delay: -0.3s;
 }
 
 @-webkit-keyframes lds-ripple {
@@ -1989,7 +1989,7 @@ a:focus {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #fff;
+	background-color: #0c0b0b;
 	opacity: 0.6;
 }
 
