@@ -4040,20 +4040,24 @@ a:focus {
 
 .team-one__image {
 	overflow: hidden;
-	border-radius: 10px;
-	background-color: #000000;
+	border-radius: 1px;
+	background-color: #fff;
 }
 
 .team-one__image>img {
-	width: 100%;
+	width: 85%;
+  	height: 450px;
 	opacity: 1;
-	transform: scale(1);
+	transform: scale(1.25);
 	transition: transform 500ms, opacity 500ms;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .team-one__single:hover .team-one__image>img {
 	opacity: 0.4;
-	transform: scale(1.05);
+	transform: scale(1.35);
 }
 
 .team-one__about-page {
@@ -7955,4 +7959,12 @@ a:focus {
 	color: #93959e;
 	font-size: 16px;
 	line-height: 30px;
+}
+
+.cta-about-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 98%;
+	margin-bottom: 20px;
 }
